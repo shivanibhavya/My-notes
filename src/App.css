@@ -1,0 +1,72 @@
+/* src/App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #152417;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(110, 102, 102, 0.1);
+}
+
+h1{
+  justify-content: center;
+  display: flex;
+  font-family: sans-serif;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+.note {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #0c2211;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  gap: 5px;
+}
+
+button:hover {
+  background-color: #406d44;
+}
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
